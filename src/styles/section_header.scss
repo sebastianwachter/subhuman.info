@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  min-width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: $lightblack;
+  height: 38px;
+
+  .tab, .languageSelector {
+    display: inline-block;
+    color: $lightgrey;
+    line-height: 38px;
+    font-size: 15px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .tab {
+    padding: 0 35px;
+    min-width: 120px;
+    background-color: $darkgrey;
+
+    &.active {
+      background-color: $black;
+    }
+
+    &:before {
+      position: absolute;
+      transform: translateX(-50%);
+      left: 20px;
+    }
+
+    &#index {
+      &:before {
+        content: '<>';
+        color: $orange;
+      }
+    }
+
+    &#portfolio {
+      &:before {
+        content: '#';
+        color: $blue;
+      }
+    }
+  }
+
+  .languageSelector {
+    position: absolute;
+    right: 0;
+    background-color: $black;
+    padding: 0 11px;
+    height: 38px;
+  }
+}

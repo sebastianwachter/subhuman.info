@@ -1,0 +1,33 @@
+// Reset styles
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Color definition
+$black: #272822;
+$lightblack: #2F302B;
+$lightgrey: #9fa194;
+$darkgrey: #353631;
+$pink: #f92672;
+$blue: #66d9ef;
+$green: #a6e22e;
+$orange: #fd971f;
+
+// Main layout
+.container {
+  background-color: $lightblack;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+
+  .content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@import "fonts", "section_header", "section_welcome", "section_footer";

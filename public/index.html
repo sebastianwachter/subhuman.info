@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="./styles/styles.css">
+    <title>SUBHUMAN - FRONTEND DEVELOPER</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <section class="header">
+          <div class="tab active" id="index">
+            <p data-text="header_index"></p>
+          </div>
+          <div class="tab" id="portfolio">
+            <p data-text="header_portfolio"></p>
+          </div>
+
+          <div class="languageSelector" data-lang="en" data-text="languageEN"></div>
+        </section>
+          
+        <section class="welcome">
+          <div id="index" class="active">
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="doctype" data-text="index_doctype"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tag" data-text="index_html"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2"><span class="tag" data-text="index_head"></span></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab4"><span class="tag" data-text="index_title"></span><span data-text="index_title_content"></span><span class="close tag" data-text="index_title"></span></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2"><span class="tag close" data-text="index_head"></span></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2"><span class="tag" data-text="index_body"></span></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab4"><span class="tag" data-text="index_h1"></span><span data-text="index_h1_content"></span><span class="close tag" data-text="index_h1"></span></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab4"><span class="tag" data-text="index_h3"></span><span data-text="index_h3_content0"></span><span class="close tag" data-text="index_h3"></span></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab4"><span class="tag" data-text="index_h3"></span><span data-text="index_h3_content1"></span><span class="close tag" data-text="index_h3"></span></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2"><span class="tag close" data-text="index_body"></span></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tag close" data-text="index_html"></span>
+            </div>
+          </div>
+
+          <div id="portfolio">
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="selector" data-text="portfolio_general"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_name"></span><span class="ruleVal" data-text="portfolio_name_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_age"></span><span id="age" class="ruleVal"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_spoken_languages"></span><span class="ruleVal" data-text="portfolio_spoken_languages_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="rule close"></span>
+            </div>
+
+            <div class="code">
+              <span class="lineNumber"></span>
+              <br/>
+            </div>
+
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="selector" data-text="portfolio_skills"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_languages"></span><span class="ruleVal" data-text="portfolio_languages_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_frameworks"></span><span class="ruleVal" data-text="portfolio_frameworks_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_css"></span><span class="ruleVal" data-text="portfolio_css_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_html"></span><span class="ruleVal" data-text="portfolio_html_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_backend"></span><span class="ruleVal" data-text="portfolio_backend_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_db"></span><span class="ruleVal" data-text="portfolio_db_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_vcs"></span><span class="ruleVal" data-text="portfolio_vcs_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="rule close"></span>
+            </div>
+
+            <div class="code">
+              <span class="lineNumber"></span>
+              <br/>
+            </div>
+
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="selector" data-text="portfolio_history"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_2016-tody"></span><span class="ruleVal" data-text="portfolio_2016-tody_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_2015-2016"></span><span class="ruleVal" data-text="portfolio_2015-2016_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_2013-2017"></span><span class="ruleVal" data-text="portfolio_2013-2017_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="tab2 rule" data-text="portfolio_2013"></span><span class="ruleVal" data-text="portfolio_2013_val"></span>
+            </div>
+            <div class="code">
+              <span class="lineNumber"></span>
+              <span class="rule close"></span>
+            </div>
+          </div>
+
+          <div id="imprint">
+            <h2 class="textspacing" data-text="imprint_headline"></h2>
+            <p class="textspacing" data-text="imprint_data"></p>
+            <p data-text="imprint_author"></p>
+            <p data-text="imprint_address"></p>
+            <p class="textspacing" data-text="imprint_city"></p>
+            <h2 class="textspacing" data-text="imprint_contact"></h2>
+            <p data-text="imprint_telephone"></p>
+            <p data-text="imprint_mail"></p>
+            <p class="textspacing" data-text="imprint_website"></p>
+            <h2 class="textspacing" data-text="imprint_liability"></h2>
+            <p data-text="imprint_content"></p>
+            <p class="textspacing" data-text="imprint_content_block"></p>
+            <p data-text="imprint_copyright"></p>
+            <p data-text="imprint_copyright_block"></p>
+          </div>
+        </section>
+          
+        <section class="footer">
+          <p data-text="footer_notice"></p>
+          <div class="tab" id="imprint">
+            <p data-text="footer_imprint"></p>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>

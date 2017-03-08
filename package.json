@@ -1,0 +1,24 @@
+{
+  "name": "subhuman.info",
+  "version": "0.0.1",
+  "description": "subhuman.info site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "subhuman",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-notify": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-plumber": "latest"
+  },
+  "dependencies": {}
+}
