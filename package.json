@@ -12,7 +12,7 @@
     "browser-sync": "latest",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
-    "gulp-concat": "latest",,
+    "gulp-concat": "latest",
     "gulp-sass": "latest",
     "gulp-uglify": "latest",
     "gulp-util": "latest",
