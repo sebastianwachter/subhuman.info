@@ -23,4 +23,9 @@
     display: inline-block;
     line-height: 38px;
   }
+
+  a:hover > p {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
