@@ -13,7 +13,6 @@
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
     "gulp-concat": "latest",
-    "gulp-notify": "latest",
     "gulp-sass": "latest",
     "gulp-uglify": "latest",
     "gulp-util": "latest",
