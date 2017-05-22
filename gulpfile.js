@@ -41,6 +41,6 @@ gulp.task('serve', ['build-js', 'build-css'], () => {
 
   gulp.watch('./src/scripts/**/*.js', ['build-js', browserSync.reload]);
   gulp.watch('./src/styles/**/*.scss', ['build-css']);
-  gulp.watch('./public/*.html', browserSynBc.reload);
+  gulp.watch('./public/*.html', browserSync.reload);
   gulp.watch('./public/assets/lang/*.json', browserSync.reload);
 });
